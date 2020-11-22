@@ -1,0 +1,138 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Roboto";
+    font-size: 13pt;
+    background-color: rgb(128,192,192);
+    padding: 12px;
+    margin: 0;
+}
+h1 {
+    font-size: 16pt;
+    color: #EEE;
+    text-align: center;
+    padding: 16px 0 16px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    padding: 12px;
+    background-color: rgb(192,64,32);
+    box-shadow: 6px 6px 3px 3px #CCC
+}
+p {
+    padding: 8;
+    margin: 8;
+}
+.section {
+    background-color: #EEE;
+    padding: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 16px;
+    border-radius: 16px;
+}
+#header {
+    background: rgb(192,64,32);
+    background-size: cover;
+}
+
+#header p {
+    font-size: 25pt;
+    color: #EEE;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 10pt;
+    text-align: right;
+    margin-top: 16px;
+}
+table {
+    width: 100%;
+    font-size: 12pt;
+}
+table, th, td {
+    border: 2px solid rgb(128,192,192);
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #00F;
+    font-weight: bold;
+    color: #EEE;
+}
+li {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: rgb(128,192,192);
+    background: #EEE;
+}
+progress::-webkit-progress-bar {
+    background: #EEE;
+}
+progress::-webkit-progress-value {
+    background: rgb(128,192,192);
+} 
+progress::-moz-progress-bar {
+    color: #EEE;
+    background: rgb(128,192,192);
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid rgb(128,192,192);
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: rgb(192,64,32);
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #EEE;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: rgb(128,192,192);
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid rgb(128,192,192);
+    background-color: #EEE;
+    color: rgb(192,64,32);
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.clown {
+    float: left;
+    display: block;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 16px;
+    color: #EEE;
+}
